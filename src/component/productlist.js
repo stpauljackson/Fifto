@@ -1,4 +1,3 @@
-import Carousel from "react-elastic-carousel";
 import React,{useState} from 'react'
 import ad from '../fifto3.jpg'
 import './productlist.css'

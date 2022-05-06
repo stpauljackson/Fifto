@@ -1,11 +1,13 @@
 import './App.css';
-import Login from './component/login'
-import Product from './screens/home'
+import Home from './screens/home'
+import Navbar from './component/Navbar'
 
 function App() {
   return (
     <div className="App">
-      <Product />
+      <Navbar />
+      <div style={{height:"96px"}}></div>
+      <Home />
     </div>
   );
 }

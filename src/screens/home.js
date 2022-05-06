@@ -1,20 +1,15 @@
 import React, { Component } from 'react'
 import Cat from "../component/cat"
-import Navbar from "../component/Navbar.js"
-import Ad from "../component/ad.js"
+
 import './home.css'
-import Productlist from '../component/productlist'
+import Product from '../component/product'
 
 export default class Home extends Component {
     render() {
         return (
             <div>
-                <Navbar />
                 <Cat />
-                <Ad/>
-                <Productlist name="Trending"/>
-                <Productlist name="What's New"/>
-                <Productlist name="Discounted"/>
+                <Product />
             </div>
         )
     }
